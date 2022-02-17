@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    background: url(https://images.hdqwalls.com/download/desert-night-macos-mojave-5k-lb-2560x1440.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 50px black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+strong {
+    color: rgb(105, 0, 241);
+}
+nav a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.texte {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 16px;
+}
+.col {
+    flex-basis: 50%;
+}
+.carte {
+    width: 200px;
+    height: 260px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   margin: 10px 15px;
+   background-image: url(./img/spider.jpg);
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.carte2 {
+    background-image: url(./img/tanjirob.jpg);
+}
+.carte3 {
+    background-image: url(./img/livai.jpg);
+}
+.carte4 {
+    background-image: url(./img/eren1.jpg);
+}
+.col1 {
+    margin-top: 3cm;
+    margin-left: 200px;
+}
+.carte:hover {
+    transform: translateY(-10px);
+}
+h5 {
+    text-shadow: 0 0 9px black;
+    margin-top: 0;
+}
+footer {
+    margin-bottom: 0;
+}
+.reseaux {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+button {
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color:rgb(105, 0, 241);
+}
+.col a {
+    text-decoration:none;
+
+}
+col a:hover {
+    transform: translateY(-10px);
+}
